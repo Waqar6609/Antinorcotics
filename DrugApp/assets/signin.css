@@ -1,0 +1,14 @@
+@import url('../assets/style.css');
+
+#login-box{
+    background-color: rgb(246, 246, 246);
+    height: calc(100vh - 5px);
+}
+.signin-form{
+    max-width: 550px;
+    min-width: 350px;
+
+}
+form .form-group{
+    margin-top: 12px;
+}
