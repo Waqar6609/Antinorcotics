@@ -3,7 +3,7 @@
 <div class="container-fluid" id="login-box">
     <div class="row h-100">
         <div class="col-md-8 col-sm-12 h-100  d-flex  justify-content-center ">
-        <form action="<?php echo base_url('index.php/SigninController/loginprocess'); ?>" class="m-auto signin-form text-center" method="post">
+        <form action="<?php echo base_url('index.php/Auth_Controller/login'); ?>" class="m-auto signin-form text-center" method="post">
                 <img class="rounded-circle" src="<?php echo base_url('assets/images/bfc.png'); ?>" alt="logo" style="width: 75px; height:75px;" />
                 <h2>Signin!</h2>
                 <div class="form-group">

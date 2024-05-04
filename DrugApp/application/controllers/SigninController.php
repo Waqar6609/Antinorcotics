@@ -1,4 +1,4 @@
-<?php
+<!-- <?php
 class SigninController extends CI_Controller
 {
 
@@ -46,4 +46,4 @@ class SigninController extends CI_Controller
     }
 }
 
-?>
+?> -->
