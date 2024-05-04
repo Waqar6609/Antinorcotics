@@ -116,10 +116,7 @@
                         <?php echo form_error('newname', "<div style='color:red;'>,</div>"); ?>
 
                     </div>
-                    <div class="form-group">
-                        <input type="email" class="form-control" placeholder="User email" name="newemail">
-                        <?php echo form_error('newname', "<div style='color:red;'>,</div>"); ?>
-                    </div>
+                   
                     <div class="form-group">
                         <input type="password" class="form-control" placeholder="User password" name="newpassw">
                         <?php echo form_error('newname', "<div style='color:red;'>,</div>"); ?>
