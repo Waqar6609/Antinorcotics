@@ -108,15 +108,7 @@
                 <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
             </div>
 
-            <!-- Modal body -->
-            <div class="modal-body">
-                <form action="<?php echo base_url('index.php/AdduserController/NewAdmin'); ?>" method="post">
-                    <div class="form-group">
-                        <input type="text" class="form-control" placeholder="User Name" name="newname">
-                        <?php echo form_error('newname', "<div style='color:red;'>,</div>"); ?>
-
-                    </div>
-                   
+           
                     <div class="form-group">
                         <input type="password" class="form-control" placeholder="User password" name="newpassw">
                         <?php echo form_error('newname', "<div style='color:red;'>,</div>"); ?>
